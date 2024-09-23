@@ -1,0 +1,235 @@
+.candidateContainer{
+    width: 100%;
+    height: 210vh;
+    display: flex;
+    padding-top: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: rgb(225, 225, 225);
+    position: relative;
+
+}
+.candidateContainer>img{
+    width: 102%;
+    margin-bottom: 200px;
+    z-index: 3;
+}
+.grid-candidate-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
+    1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+     1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    
+    grid-template-rows: 1fr  1fr 1fr  1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 
+        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 1px;
+    width: 80%;
+    height: 200vh;
+    /* background-color: rgb(136, 136, 136); */
+   
+
+}
+.whychoosec{
+    grid-area: 2/3/8/24;
+
+}
+.whychoosec>h6{
+    font-weight: 400;
+    font-size: 7px;
+}
+.whychoosec>h4{
+    font-weight: 400;
+}
+.whychoosec>p{
+    font-size: 10px;
+    color: black;
+}
+.frame1{
+    grid-area:3/30/16/44;
+    /* background-color: green; */
+    /* position: relative; */
+}
+.frame1>img{
+    width: 100%;
+    height: 100%;
+}
+.frame2{
+    grid-area:9/4/28/10  ;
+}
+.frame2>img{
+    width: 100%;
+    height: 100%;
+}
+.pre-qualified{
+    display: flex;
+    font-size: 14px;
+    color: black;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+    grid-area: 12/11/20/20;
+    position: relative;
+}
+.pre-qualified .dot{
+    width: 6px;
+    height: 6px ;
+    left: -80px;
+    top: 39px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+.pre-qualified .arrow{
+    width: 130%;
+    height: 1.5px ;
+    top: 41px;
+    left: -75px;
+    position: absolute;
+    /* border-radius: 50%; */
+    background-color: black;
+}
+
+.pre-qualified>p{
+
+    font-size:10px ;
+    color: black;
+}
+.active-job{
+    /* background-color: green; */
+    
+    display: flex;
+    font-size: 14px;
+    color: black;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    grid-area:17/30/22/44 ;
+    position: relative;
+}.active-job>p{
+    color: black;
+}
+.active-job .arrow{
+    width: 164px;
+    height: 1.5px ;
+    top: 25px;
+    right: 70px;
+    position: absolute;
+    background-color: black;
+}
+.active-job .vertical{
+    width: 1px;
+    height: 95px ;
+    top: -70px;
+    right: 70px;
+    position: absolute;
+    background-color: black;
+}
+.active-job .dot{
+    width: 6px;
+    height: 6px ;
+    right: 67px;
+    top: -75px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+
+
+.frame3{
+
+    grid-area:23/16/45/29 ;
+}
+.frame3>img{
+    width: 100%;
+    height: 100%;
+}
+.connection1{
+    grid-area: 39/4 /46/16;
+    z-index: 2;
+    display: flex;
+    font-size: 14px;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.connection1>p{
+    color: black;
+}
+
+.connection1 .dot{
+    width: 6px;
+    height: 6px ;
+    right: -43px;
+    top: 28px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+.connection1 .arrow{
+    width: 100%;
+    height: 1.5px ;
+    top: 31px;
+    right: -38px;
+    position: absolute;
+    /* border-radius: 50%; */
+    background-color: black;
+}
+
+.connection2 .dot{
+    width: 6px;
+    height: 6px ;
+    right: -60px;
+    top: 18px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
+.connection2 .arrow{
+    width: 113%;
+    height: 1.5px ;
+    top: 20px;
+    right: -60px;
+    position: absolute;
+    /* border-radius: 50%; */
+    background-color: black;
+}
+
+.frame4{
+    grid-area: 34/32/54/44;
+    /* background-color: green; */
+}
+.frame4>img{
+    width: 100%;
+    height: 100%;
+}
+.connection2{
+    grid-area: 50/20/54/32;
+    display: flex;
+    justify-content: right;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* background-color: green; */
+}
+.connection2>p{
+    color: black;
+}
+.biglogo{
+    position: absolute;
+    left: 0;
+    color: black;
+    z-index: 1;
+    bottom: -4px;
+}
+.biglogo>img{
+    height: 500px;
+    width: 700px;
+
+}

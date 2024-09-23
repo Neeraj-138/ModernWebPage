@@ -1,0 +1,70 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    overflow: hidden;
+
+}
+.left{
+    display: flex;
+    flex:1;
+    background-color: rgb(192, 190, 190);
+    position: relative;
+}
+.right{
+    display: flex;
+    flex:1;
+    position: relative;
+    background-color: rgb(192, 190, 190);
+}
+.content{
+    position: absolute;
+    bottom: 160px;
+    right: 0;
+    z-index: 2;
+    background-color: transparent   ;
+    width: 330px;
+    height: 250px;
+}
+.big>p{
+    font-weight: 500;
+    font-size: 60px;
+    display: flex;
+    justify-content: right;
+    color: white;
+    z-index: 2;
+}
+.para>p{
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+.blur>img{
+    width:470px;
+    height:530px;
+    position:absolute;
+    bottom:-10px;
+    z-index: 1;
+    right: -220px;
+}
+.half>img{
+    width: 200px;
+    height: 480px;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+}
+.hash>img{
+    position: absolute;
+    padding-top: 40px;
+    height: 600px;
+    right: 50px;
+    width: 300px;
+}
+.journey>p{
+    bottom: 30px;
+    left: 50px;
+    color: white;
+    position: absolute;
+}

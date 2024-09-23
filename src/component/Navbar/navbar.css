@@ -1,0 +1,27 @@
+.NavContainer{
+    padding: 10px ;
+    background-color: rgb(192, 190, 190);
+    display: flex;
+    gap: 40px;
+}
+.NavContainer>img{
+    width: 30px;
+    height: 30px;
+}
+.NavContainer >ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.NavContainer>ul>li>button{
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}

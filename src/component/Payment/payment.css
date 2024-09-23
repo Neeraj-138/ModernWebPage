@@ -1,0 +1,114 @@
+.upper>img{
+    height: 120px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.PaymentContainer{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading>p{
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+}
+.card{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-item1{
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: rgb(220, 220, 220);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.card-item2{
+    display: flex;
+    width: 85%;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: rgb(30, 30, 30);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.professional{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    color: rgb(1, 1, 1);
+    justify-content: space-between;
+}
+.start{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+}
+.price>p{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    
+}
+.price-details{
+    display: flex;
+    color: white;
+    width: 60%;
+    align-items: center;
+
+    margin: 20px;
+    justify-content: space-between;
+}
+.interest{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    justify-content:space-between;
+    color: white;
+}
+.interest>button{
+    border: none;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 7px;
+}
+.start>button{
+    border: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: 7px;
+}

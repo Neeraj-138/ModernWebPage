@@ -1,19 +1,30 @@
-import  { BrowserRouter,Route, Routes} from "react-router-dom";
-import Books from "./pages/Books";
-import Add from "./pages/Add";
-import Update from "./pages/Update";
+
+import CandidateSearch from "./component/CandidateSearch/CandidateSearch";
+import Company from "./component/company/Company";
+import FAQ from "./component/Faq/FAQ";
+import Footer from "./component/footer/Footer";
+import Hero from "./component/Hero/Hero";
+import Insites from "./component/Insites/Insites";
+import Navbar from "./component/Navbar/Navbar";
+import Payment from "./component/Payment/Payment";
+import WhyChoose from "./component/whyChoose/WhyChoose";
+import Second from "./page/page2/Second";
 import "./style.css"
 
 function App() {
   return (
     <div className='App'>
-    <BrowserRouter >
-      <Routes>
-        <Route path="/" element={<Books/>} />
-        <Route path="/add" element={<Add/>} />
-        <Route path="/update/:id" element={<Update/>} />
-      </Routes>
-    </BrowserRouter>
+    {/* <Navbar/>
+    <Hero/>
+    <Company/>
+    
+    <WhyChoose/>
+    
+    <Insites/>
+    <FAQ/>
+    <Footer/> */}
+
+    <Second/>
     </div>
     
   );
