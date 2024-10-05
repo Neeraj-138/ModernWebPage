@@ -13,7 +13,7 @@ function Hero() {
           <div className='big'>
             <p>FIND YOUR </p>
             <p>SUPER</p>
-            <p>HEROS</p>
+            <p>HERO</p>
             
           </div>
           <div className='para' >
